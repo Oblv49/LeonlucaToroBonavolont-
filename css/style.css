@@ -44,9 +44,22 @@ body {
     transform: rotate(180deg) scalex(-1);
     opacity: 0.2;
 }
+
+.lWhitBg {
+    height: 400px;
+}
 /*LINEA*/
 .line {
     width: 100%; 
+    height: 3px; 
+    border-radius: 15%;
+    background-color: grey; 
+    margin: 0 auto;
+    margin-top: 5px; 
+}
+
+.line2 {
+    width: 10%; 
     height: 3px; 
     border-radius: 15%;
     background-color: grey; 
@@ -61,11 +74,21 @@ body {
     z-index: -1;
     top: 0;
     left: 0;
+    opacity: 0.4;
+}
+.virgoletteR {
+    width: 200px; /* Larghezza desiderata delle virgolette */
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 85%;
+    transform: scaleX(-1);
+    opacity: 0.4;
 }
 
 /*BADGE WELLNESS DESIGN & UI/UX*/
 .badgeWell {
-    height: 300px;
+    height: 220px;
 }
 
 /*PENTAGONO*/
@@ -78,4 +101,31 @@ body {
     transform: rotate(45deg);
     top: -10vw;
     z-index: -2;
+}
+
+/*PENTAGONO*/
+.pentagono1 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-color: #202534;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(45deg);
+    left: 85%;
+    z-index: -1;
+}
+
+/*LINK*/
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: #6e7ca6;
+}
+
+/*FOOTER*/
+.footer {
+    height: 5%;
+    background-color: #202534;
 }
