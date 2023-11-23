@@ -12,7 +12,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     width: 100vw;
-    height: 100vh;
+    overflow-x: hidden;
+    position: relative;
 }
 
 /*NAVBAR*/
@@ -103,18 +104,54 @@ body {
     z-index: -2;
 }
 
-/*PENTAGONO*/
 .pentagono1 {
     position: absolute;
     width: 20vw;
     height: 20vw;
     background-color: #202534;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-    transform: rotate(45deg);
-    left: 85%;
+    transform: rotate(-30deg);
+    left: 85%; 
+    top: 20.7%;
     z-index: -1;
 }
 
+.pentagono2 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-color: #202534;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(30deg);
+    left: -5%;
+    top: 73%;
+    z-index: -2;
+}
+
+.pentagono3 {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    background-color: #202534;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(-25deg);
+    left: 90%; 
+    top: 72%;
+    z-index: 0;
+}
+.pentagono4 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 12.6vw;
+    height: 12.5vw;
+    background-color: #202534;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(-92deg);
+    left: -5%;
+    top: 92.6%;
+    z-index: 0;
+}
 /*LINK*/
 a {
     text-decoration: none;
