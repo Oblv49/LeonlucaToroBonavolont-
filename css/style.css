@@ -27,7 +27,7 @@ body {
 }
 
 /*HOMEPAGE*/
-#homepage {
+.homepage {
     overflow: hidden;
     font-family: 'Montserrat', sans-serif;
 }

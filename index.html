@@ -10,6 +10,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <!--ANIMATE CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
     <!--GOOGLE FONT-->
@@ -25,13 +27,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <title>Leonluca Toro Bonavolontà</title>
 </head>
 
 <body class="">
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg bg-body-white shadow">
+    <nav id="home" class="navbar navbar-expand-lg bg-body-white shadow">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,13 +44,13 @@
             </button>
             <div class="collapse navbar-collapse text-center justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item animate__animated animate__fadeInDown">
                         <a class="nav-link active fs-3" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item ms-4">
+                    <li class="nav-item ms-4 animate__animated animate__fadeInDown">
                         <a class="nav-link fs-3" href="#">Work</a>
                     </li>
-                    <li class="nav-item ms-4">
+                    <li class="nav-item ms-4 animate__animated animate__fadeInDown">
                         <a class="nav-link fs-3" href="#">About</a>
                     </li>
                 </ul>
@@ -53,17 +58,17 @@
         </div>
     </nav>
     <!--HOMEPAGE-->
-    <div id="homepage" class="container-fluid">
+    <div class="homepage container-fluid ">
         <div class="row position-relative">
             <div class="m-0 p-0">
-                <img class="bgLetter" src="images/letterBg.png" alt="">
+                <img class="bgLetter animate__animated animate__fadeInDown" src="images/letterBg.png" alt="">
             </div>
             <div class="pentagono"></div>
             <div class="col-5 m-0 p-0">
-                <img class="w-100" src="images/leo.png" alt="leonluca toro bonavoltà">
+                <img class="w-100 animate__animated animate__fadeInDown" src="images/leo.png" alt="leonluca toro bonavoltà">
             </div>
             <div class="col-7 d-flex align-items-center justify-content-center text-end p-5 mt-5">
-                <div class="flex-column">
+                <div class="flex-column animate__animated animate__fadeInDown">
                     <p class="display-6 p-0 mb-2 fw-medium">
                         “L’assenza di qualcosa che andava fatto<br>
                         è sempre più difficile da notare
@@ -75,37 +80,41 @@
                 </div>
             </div>
             <div class="col-12 text-center position-absolute bottom-0 start-50 translate-middle-x">
-                <p>
+                <a href="#info">
                     <span class="material-symbols-outlined fs-1">
                         keyboard_arrow_down
                     </span>
-                </p>
+                </a>
             </div>
         </div>
     </div>
     <div class="pentagono1"></div>
-    <div id="homepage" class="container-fluid">
+    <div id="info" class="homepage container-fluid">
         <div class="row position-relative">
-            <div class="col-5 m-0 p-0">
+            <div class="col-5 m-0 p-0" data-aos="fade-down">
                 <img class="image-rotate w-100" src="images/leo.png" alt="leonluca toro bonavoltà">
             </div>
             <div class="col-8 position-absolute start-50 mt-5 translate-middle-x">
                 <div class="d-flex flex-column align-items-center justify-content-center">
-                    <div class="text-center">
+                    <div class="text-center" data-aos="fade-up">
                         <p class="display-5 p-0 mb-2 fw-medium">Leonluca Toro Bonavolontà</p>
                         <div class="line"></div>
                     </div>
                     <div class="d-flex align-items-center justify-content-center position-relative">
                         <img class="virgolette" src="images/virgolette.png" alt="virgolette grandi png senza sfondo">
-                        <p class="text-secondary fs-4 mt-5 text-end">Grazie alla laurea magistrale in Psicologia per il
+                        <p class="text-secondary fs-4 mt-5 text-end" data-aos="fade-up">Grazie alla laurea magistrale in
+                            Psicologia per il
                             Benessere, sono
                             in grado di entrare in empatia con le persone, ricercare e
                             osservare i loro bisogni e promuovere lo sviluppo personale.</p>
-                        <img class="badgeWell" src="images/infoGmentalW.png" alt="info grafica mental wellness">
+                        <img class="badgeWell" src="images/infoGmentalW.png" alt="info grafica mental wellness"
+                            data-aos="fade-left">
                     </div>
                     <div class="d-flex align-items-center justify-content-center position-relative">
-                        <img class="badgeWell" src="images/infoUiUx.png" alt="info grafica mental wellness">
-                        <p class="text-secondary fs-4 mt-3 text-start">A seguito di alcuni corsi universitari (ma anche
+                        <img class="badgeWell" src="images/infoUiUx.png" alt="info grafica mental wellness"
+                            data-aos="fade-right">
+                        <p class="text-secondary fs-4 mt-3 text-start" data-aos="fade-up">A seguito di alcuni corsi
+                            universitari (ma anche
                             esterni, attraverso
                             Fastweb Digital Accademy), ho appreso i fondamenti
                             dell’ergonomia e dell’usabilità, implicati nella psicologia e,
@@ -114,32 +123,35 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center position-relative">
                         <img class="virgolette" src="images/virgolette.png" alt="virgolette grandi png senza sfondo">
-                        <p class="text-secondary fs-4 mt-3 text-end">La mia aspirazione è applicare il design, tramite
+                        <p class="text-secondary fs-4 mt-3 text-end" data-aos="fade-up">La mia aspirazione è applicare
+                            il design, tramite
                             diversi caposaldi
                             della psicologia, in vari ambiti (dalla tecnologia, a tipologie differenti
                             di ambienti), progettando prodotti e servizi ad hoc per l’utente che ne
                             usufruirà.</p>
-                        <img class="badgeWell" src="images/infoDesign.png" alt="info grafica mental wellness">
+                        <img class="badgeWell" src="images/infoDesign.png" alt="info grafica mental wellness"
+                            data-aos="fade-left">
                     </div>
                 </div>
             </div>
             <div class="pentagono2"></div>
-            <div class="col-12 text-center position-absolute bottom-0 start-50 translate-middle-x">
-                <p>
+            <div class="col-12 text-center position-absolute bottom-0 start-50 translate-middle-x" data-aos="fade-down">
+                <a href="#contatti">
                     <span class="material-symbols-outlined fs-1">
                         keyboard_arrow_down
                     </span>
-                </p>
+                </a>
             </div>
         </div>
     </div>
-    <div id="homepage" class="container-fluid p-0 m-0">
+    <div id="info1" class="homepage container-fluid p-0 m-0">
         <div class="row position-relative">
             <div class="d-flex align-items-center justify-content-center m-0 p-0">
-                <img class="w-100 p-0 m-0" src="images/people.png" alt="people" style="z-index: -1;">
+                <img class="w-100 p-0 m-0" src="images/people.png" alt="people" style="z-index: -1;" data-aos="fade-up">
                 <div class="d-flex align-items-center justify-content-center position-absolute w-75 m-auto">
                     <img class="virgolette" src="images/virgolette.png" alt="virgolette grandi png senza sfondo">
-                    <p class="fs-2 fw-bold mt-4 text-center" style="color: #202534;">“Alla base di tutto ciò che succede c’è
+                    <p class="fs-2 fw-bold mt-4 text-center" style="color: #202534;" data-aos="fade-up">“Alla base di
+                        tutto ciò che succede c’è
                         una motivazione. Proprio lavorando su questo aspetto è
                         possibile comprendere in che modo migliorare”.<br>
                         Ho un approccio proattivo e collaborativo,
@@ -152,19 +164,19 @@
         <img class="w-100" src="images/letterBg50.png" alt="letter bg half">
     </div>
     <div class="pentagono3"></div>
-    <div id="homepage" class="container-fluid mt-5">
+    <div id="contatti" class="homepage container-fluid mt-5">
         <div class="row position-relative">
-            <div class="text-center mb-5">
+            <div class="text-center mb-5" data-aos="fade-up">
                 <p class="display-5 p-0 mb-2 fw-medium">Contatti</p>
                 <div class="line2"></div>
             </div>
             <div class="col-10 m-auto d-flex justify-content-center align-items-center mt-5 mb-5">
-                <div class="col-4 d-flex justify-content-center align-items-center">
+                <div class="col-4 d-flex justify-content-center align-items-center" data-aos="zoom-in">
                     <img class="lWhitBg rounded rounded-circle" src="images/leoWhitBg.jpeg"
                         alt="leonluca toro bonavoltà">
                 </div>
                 <div class="flex-column ms-5">
-                    <div class="col-8 d-flex align-items-center">
+                    <div class="col-8 d-flex align-items-center" data-aos="fade-up">
                         <div>
                             <p class="display-2">
                                 <i class="fa-solid fa-envelope"></i>
@@ -175,7 +187,7 @@
                             <div class="line"></div>
                         </div>
                     </div>
-                    <div class="col-8 d-flex align-items-center mt-3">
+                    <div class="col-8 d-flex align-items-center mt-3" data-aos="fade-up">
                         <div>
                             <p class="display-2">
                                 <i class="fa-solid fa-phone"></i>
@@ -186,7 +198,7 @@
                             <div class="line"></div>
                         </div>
                     </div>
-                    <div class="col-8 d-flex align-items-center mt-3">
+                    <div class="col-8 d-flex align-items-center mt-3" data-aos="fade-up">
                         <div>
                             <p class="display-2">
                                 <i class="fa-brands fa-linkedin"></i>
@@ -200,14 +212,26 @@
                     </div>
                 </div>
             </div>
+            <div class="col-12 text-center position-absolute bottom-0 start-50 translate-middle-x">
+                <a href="#home">
+                    <span class="material-symbols-outlined fs-1">
+                        keyboard_arrow_up
+                    </span>
+                </a>
+            </div>
         </div>
     </div>
-    <div id="homepage" class="footer container-fluid mt-5 d-flex justify-content-center align-items-center">
-        
+    <div id="" class="homepage footer container-fluid mt-5 d-flex justify-content-center align-items-center">
         <div class="text-white mt-3">
             <p>LeonlucaToroBonavolontà&reg;</p>
         </div>
         <div class="pentagono4 m-0 p-0"></div>
     </div>
+
+    <!--AOS SCRIPT-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--JS-->
+    <script src="js/script.js"></script>
 </body>
+
 </html>
