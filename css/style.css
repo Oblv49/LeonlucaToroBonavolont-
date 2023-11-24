@@ -123,26 +123,26 @@ body {
  
  @media (max-width: 768px) {
      #contatti p, a{
-         font-size: 18px;
+         font-size: 15px;
      }
  }
  
  @media (max-width: 576px) {
      #contatti p, a {
-         font-size: 15px;
+         font-size: 13px;
          
      }
  } 
 
  @media (max-width: 768px) {
     #contatti i{
-        font-size: 35px;
+        font-size: 32px;
     }
 }
 
 @media (max-width: 576px) {
     #contatti i{
-        font-size: 28px;
+        font-size: 25px;
         
     }
 } 
