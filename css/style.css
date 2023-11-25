@@ -30,6 +30,7 @@ body {
 .homepage {
     overflow: hidden;
     font-family: 'Montserrat', sans-serif;
+    width: 100vw;
 }
 
 .bgLetter {
@@ -274,4 +275,145 @@ a:hover {
 .footer {
     height: 5%;
     background-color: #202534;
+}
+
+
+/*ABOUT*/
+#aboutDiv {
+    margin-top: 6% !important;
+    margin-bottom: 8% !important;
+}
+
+@media (max-width: 967px) {
+    #aboutDiv {
+        display: block !important;
+    }
+}
+
+@media (max-width: 576px) {
+    #aboutDiv {
+        display: block !important;
+    }
+}
+
+#contattiAbout {
+    font-size: 35px;
+    margin-top: 7%;
+}
+
+@media (max-width: 967px) {
+    #contattiAbout {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    #contattiAbout {
+        font-size: 16px;
+    }
+}
+
+.lWhitBgAbout {
+    height: 550px;
+}
+
+@media (max-width: 967px) {
+    .lWhitBgAbout {
+        height: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    .lWhitBgAbout {
+        height: 250px;
+    }
+}
+
+.pAbout {
+    font-size: 30px;
+    margin-bottom: 7%;
+    margin-top: 5%;
+}
+
+@media (max-width: 967px) {
+    .pAbout {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .pAbout {
+        font-size: 12px;
+    }
+}
+
+.pentagono5 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 13vw;
+    height: 10.5vw;
+    background-color: #202534;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(-92deg);
+    left: -5%;
+    top: 91%;
+    z-index: 0;
+}
+.pentagono6 {
+    position: absolute;
+    width: 18vw;
+    height: 18vw;
+    background-color: #202534;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(45deg);
+    top: -8vw;
+    left: 91vw;
+    z-index: -2;
+}
+
+.pentagono7 {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    background-color: #202534;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(-30deg);
+    left: 90%; 
+    top: 65.7%;
+    z-index: -1;
+}
+
+.pentagono8 {
+    position: absolute;
+    width: 16vw;
+    height: 16vw;
+    background-color: #202534;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(30deg);
+    left: -7%;
+    top: 30%;
+    z-index: -1;
+}
+
+.bgLetterAbout {
+    position: absolute;
+    width: 100%;
+    object-fit: fill;
+    object-position: 0 0;
+    z-index: -2;
+}
+
+@media (max-width: 967px) {
+    .bgLetterAbout {
+        object-fit: cover;
+        height: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .bgLetterAbout {
+        object-fit: cover;
+        height: 100%;
+    }
 }
