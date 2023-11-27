@@ -650,3 +650,122 @@ a:hover {
     background-color: whitesmoke; 
     margin: 0 auto;
 }
+
+.lineTemporal1 {
+    position: absolute;
+    width: 45%; 
+    height: 2px; 
+    top: 24.9%;
+    left: 3.1%;
+    border-radius: 15%;
+    background-color: whitesmoke; 
+}
+.lineTemporal2 {
+    position: absolute;
+    width: 38%; 
+    height: 2px; 
+    top: 50%;
+    left: 49.6%;
+    border-radius: 15%;
+    background-color: whitesmoke; 
+}
+.lineTemporal3 {
+    position: absolute;
+    width: 45%; 
+    height: 2px; 
+    top: 75%;
+    left: 3.1%;
+    border-radius: 15%;
+    background-color: whitesmoke; 
+}
+
+#zadigWork {
+    position: absolute;
+    top: 18%;
+    left: 29%;
+    color: orange;
+}
+
+#endDateZadig {
+    position: absolute;
+    color: whitesmoke;
+    top: 21.8%;
+    left: 44%;
+}
+
+#startDateZadig {
+    position: absolute;
+    color: whitesmoke;
+    top: 24.8%;
+    left: 5%;
+}
+
+#descriptioZadig {
+    position: absolute;
+    color: whitesmoke;
+    width: 35%;
+    font-size: 20px;
+    top: 18%;
+    left: 50%;
+}
+
+#università {
+    position: absolute;
+    top: 43%;
+    left: 49.5%;
+    color: orange;
+}
+
+#endDateUni {
+    position: absolute;
+    color: whitesmoke;
+    top: 50%;
+    left: 81%;
+}
+
+#startDateUni {
+    position: absolute;
+    color: whitesmoke;
+    top: 47%;
+    left: 50%;
+}
+
+#descriptioUni {
+    position: absolute;
+    color: whitesmoke;
+    text-align: end;
+    width: 35%;
+    font-size: 20px;
+    top: 43%;
+    left: 13%;
+}
+
+#università1 {
+    position: absolute;
+    top: 68%;
+    left: 13%;
+    color: orange;
+}
+
+#endDateUni1 {
+    position: absolute;
+    color: whitesmoke;
+    top: 72%;
+    left: 44.5%;
+}
+
+#startDateUni1 {
+    position: absolute;
+    color: whitesmoke;
+    top: 75%;
+    left: 10%;
+}
+
+#descriptioUni1 {
+    position: absolute;
+    color: whitesmoke;
+    width: 35%;
+    font-size: 20px;
+    top: 68%;
+    left: 50%;
+}
