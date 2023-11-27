@@ -417,3 +417,157 @@ a:hover {
         height: 100%;
     }
 }
+
+
+/*WORK*/
+.pentagonoWork {
+    width: 25vw;
+    height: 25vw;
+    background-color: #202534;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.imageProject {
+    position: absolute;
+    z-index: 1;
+    top: 22%;
+    left: 21.8%;
+    height: 380px;
+}
+
+.imageWork {
+    position: absolute;
+    z-index: 1;
+    top: 24%;
+    left: 58.8%;
+    height: 355px;
+}
+
+.bgLetterWork {
+    position: absolute;
+    width: 100%;
+    object-fit: fill;
+    object-position: 0 0;
+    z-index: -2;
+}
+
+@media (max-width: 967px) {
+    .bgLetterWork {
+        object-fit: cover;
+        height: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .bgLetterWork {
+        object-fit: cover;
+        height: 100%;
+    }
+}
+
+#projectTitle {
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    top: 70%;
+    left: 29%;
+    z-index: 1;
+}
+
+#workTitle {
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    top: 68%;
+    left: 63%;
+    line-height: 1;
+    z-index: 1;
+}
+
+.titleWork {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.pentagonoBgP-W {
+    width: 95vw;
+    height: 45vw;
+    background-color: #202534;
+    clip-path: polygon(50% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+}
+
+.pentagonoBgP-W1 {
+    width: 95vw;
+    height: 45vw;
+    background-color: #202534;
+    clip-path: polygon(50% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+    transform: rotate(180deg);
+}
+
+#projectTitleSectionP {
+    position: absolute;
+    left: 7%;
+    top: 1%;
+    z-index: 1;
+}
+
+#projectTitleSectionW {
+    position: absolute;
+    left: 68%;
+    top: 1%;
+    z-index: 1;
+}
+
+#projectTitleSectionW1 {
+    position: absolute;
+    left: 77%;
+    top: 5%;
+    z-index: 1;
+}
+
+.pentagono9 {
+    position: absolute;
+    width: 16vw;
+    height: 16vw;
+    background-color: #202534;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(30deg);
+    left: -7%;
+    top: 94%;
+    z-index: -1;
+}
+
+#logoKeybrain {
+    position: absolute;
+    background-color: whitesmoke;
+    height: 420px;
+    left: 21%;
+    top: 15%;
+    z-index: 3;
+}
+
+#tittleKeybrain {
+    position: absolute;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    left: 48%;
+    top: 17%;
+    z-index: 1;
+}
+
+#pkeybrain {
+    position: absolute;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    width: 40%;
+    font-size: 30px;
+    left: 48%;
+    top: 24%;
+    z-index: 1;
+}

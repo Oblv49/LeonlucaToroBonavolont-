@@ -26,23 +26,22 @@ homepageLink.addEventListener('click', function () {
 /*ABOUT*/
 aboutLink.addEventListener('click', function () {
     if (!homepageContainer.classList.contains('d-none')) {
+
         homepageContainer.classList.add('d-none');
         aboutContainer.classList.remove('d-none');
+
         AOS.init();
-        // Aggiungi la classe 'active' al link corrente e rimuovi da altri link
+
         aboutLink.classList.add('active');
         homepageLink.classList.remove('active');
-        // Chiudi il menu su mobile
         navbarNav.classList.remove('show');
     }
 });
 
-// Chiudi il menu su mobile quando si clicca su un link
+//gestione menù mobile
 navbarToggle.addEventListener('click', function () {
     navbarNav.classList.toggle('show');
 });
-
-// Chiudi il menu su mobile quando si clicca fuori dal menu
 document.addEventListener('click', function (event) {
     if (!navbarNav.contains(event.target) && navbarNav.classList.contains('show')) {
         navbarNav.classList.remove('show');
