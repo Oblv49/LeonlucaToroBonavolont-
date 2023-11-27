@@ -571,3 +571,82 @@ a:hover {
     top: 24%;
     z-index: 1;
 }
+
+#logoMenomale {
+    position: absolute;
+    background-color: whitesmoke;
+    height: 420px;
+    left: 60%;
+    top: 56%;
+    z-index: 3;
+}
+
+#tittleMenomale {
+    position: absolute;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    text-align: end;
+    font-size: 70px;
+    left: 32%;
+    top: 54%;
+    z-index: 1;
+}
+
+#pMenomale {
+    position: absolute;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    text-align: end;
+    width: 40%;
+    font-size: 30px;
+    left: 15%;
+    top: 63%;
+    z-index: 1;
+}
+
+#ScopriDiPiùKeybrain {
+    position: absolute;
+    font-weight: lighter;
+    color: whitesmoke;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+    top: 43%;
+}
+
+#ScopriDiPiùKeybrain:hover {
+    position: absolute;
+    font-weight: lighter;
+    color: goldenrod;
+    font-size: 28px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#ScopriDiPiùMenomale {
+    position: absolute;
+    font-weight: lighter;
+    color: whitesmoke;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+    top: 90%;
+}
+
+#ScopriDiPiùMenomale:hover {
+    position: absolute;
+    font-weight: lighter;
+    color: goldenrod;
+    font-size: 28px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.lineProject {
+    position: absolute;
+    width: 50%; 
+    height: 2px; 
+    border-radius: 15%;
+    background-color: whitesmoke; 
+    margin: 0 auto;
+}
