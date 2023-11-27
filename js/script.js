@@ -6,6 +6,8 @@ const aboutLink = document.getElementById('aboutLink');
 const workLink = document.getElementById('workLink');
 const navbarToggle = document.querySelector('.navbar-toggler');
 const navbarNav = document.getElementById('navbarNav');
+const cardProject = document.getElementById('cardProject');
+const cardExperience =document.getElementById('cardExperience');
 
 document.addEventListener('DOMContentLoaded', function () {
     AOS.init();
@@ -50,6 +52,35 @@ workLink.addEventListener('click', function () {
         navbarNav.classList.remove('show');
     }
 });
+
+cardProject.addEventListener('click', function(){
+    const experienceWork = document.getElementById('experienceWork');
+    const project = document.getElementById('project');
+    
+    if (!project.classList.contains('d-none')) {
+        project.classList.add('d-none');
+    } else  if (experienceWork.classList.contains('d-none')){
+        project.classList.remove('d-none');
+    } else if (!experienceWork.classList.contains('d-none')) {
+        experienceWork.classList.add('d-none');
+        project.classList.remove('d-none');
+    }
+    
+})
+
+cardExperience.addEventListener('click', function(){
+    const experienceWork = document.getElementById('experienceWork');
+    const project = document.getElementById('project');
+    
+    if (!experienceWork.classList.contains('d-none')) {
+        experienceWork.classList.add('d-none');
+    } else  if (project.classList.contains('d-none')) {
+        experienceWork.classList.remove('d-none');
+    } else if (!project.classList.contains('d-none')){
+        project.classList.add('d-none');
+        experienceWork.classList.remove('d-none');
+    }
+})
 
 /*ABOUT*/
 aboutLink.addEventListener('click', function () {
