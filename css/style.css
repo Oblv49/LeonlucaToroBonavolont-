@@ -40,6 +40,18 @@ body {
     z-index: -2;
 }
 
+@media (max-width: 967px) {
+    .bgLetter {
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 576px) {
+    .bgLetter {
+        object-fit: cover;
+    }
+}
+
 /*IMAGE*/
 .image-rotate {
     transform: rotate(180deg) scalex(-1);
