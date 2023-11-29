@@ -12,12 +12,14 @@ body {
     padding: 0;
     box-sizing: border-box;
     width: 100vw;
+    background-color: #202534;
     overflow-x: hidden;
     position: relative;
 }
 
 /*NAVBAR*/
 .navbar {
+    background-color: whitesmoke !important;
     height: 8%;
 }
 
@@ -52,6 +54,120 @@ body {
     }
 }
 
+.yellowTitle {
+    color: #f8cb08;
+}
+
+.greenTitle {
+    color: #095d40;
+}
+
+.blueTitle {
+    color: #004aad;
+}
+
+.card {
+    width: 18vw;
+    height: 550px;
+    background-color: whitesmoke;
+    border-radius: 40px;
+    box-shadow: 3px 5px 20px #0e1018;
+    margin-top: 5vw;
+    box-sizing: border-box;
+}
+
+@media (max-width: 967px) {
+    .card {
+        border-radius: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        border-radius: 12px;
+    }
+}
+
+.oval {
+    position: absolute;
+    top: -53px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 120px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+}
+
+@media (max-width: 967px) {
+    .oval {
+        top: -10px;
+        width: 35px;
+        height: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .oval {
+        top: -10px;
+        width: 35px;
+        height: 24px;
+    }
+}
+
+.cardImage {
+    position: absolute;
+    height: 45%;
+    top: -21%;
+    left: 14%;
+}
+
+@media (max-width: 967px) {
+    .cardImage {
+        height: 12%;
+        top: -5%;
+        left: -5%;
+    }
+}
+
+@media (max-width: 576px) {
+    .cardImage {
+        height: 12%;
+        top: -5%;
+        left: -5%;
+    }
+}
+
+.titleCard {
+    position: absolute;
+    top: 15%;
+}
+
+.titleCard h1 {
+    font-size: 30px;
+}
+
+@media (max-width: 967px) {
+    .titleCard h1 {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .titleCard h1 {
+        font-size: 10px;
+    }
+}
+
+.pCard {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    top: 37%;
+}
+
 /*IMAGE*/
 .image-rotate {
     transform: rotate(180deg) scalex(-1);
@@ -77,9 +193,9 @@ body {
 /*LINEA*/
 .line {
     width: 100%;
-    height: 3px;
+    height: 2px;
     border-radius: 15%;
-    background-color: grey;
+    background-color: white;
     margin: 0 auto;
     margin-top: 5px;
 }
@@ -95,19 +211,18 @@ body {
 
 /*INFO*/
 #info {
-    font-size: 24px;
+    font-size: 40px;
 }
 
 @media (max-width: 768px) {
     #info p {
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
 @media (max-width: 576px) {
     #info p {
-        font-size: 10px;
-
+        font-size: 13px;
     }
 }
 
@@ -223,51 +338,78 @@ body {
 }
 
 /*PENTAGONO*/
+.triangle {
+    position: absolute;
+    clip-path: polygon(100% 0%, 0% 0%, 0% 100%);
+    width: 130vw;
+    height: 20vw;
+    background-color: whitesmoke;
+    transform: scaleY(-1);
+    top: 12.57%;
+    padding: 0;
+    z-index: -2;
+}
+
+@media (max-width: 967px) {
+    .triangle {
+        top: 16.7%;
+        height: 33vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .triangle {
+        top: 16.7%;
+        height: 33vw;
+    }
+}
+
 .pentagono {
     position: absolute;
     width: 20vw;
     height: 20vw;
-    background-color: #202534;
+    background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(45deg);
-    top: -10vw;
+    top: -7vw;
+    left: 87vw;
     z-index: -2;
 }
 
 .pentagono1 {
     position: absolute;
-    width: 20vw;
-    height: 20vw;
-    background-color: #202534;
+    width: 25vw;
+    height: 25vw;
+    background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(-30deg);
-    left: 85%;
-    top: 20.7%;
+    left: 97%;
+    top: 12%;
     z-index: -1;
 }
 
 .pentagono2 {
     position: absolute;
-    width: 20vw;
-    height: 20vw;
-    background-color: #202534;
+    width: 27vw;
+    height: 27vw;
+    background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(30deg);
-    left: -5%;
-    top: 73%;
+    left: -13%;
+    top: 38%;
     z-index: -2;
 }
 
 .pentagono3 {
     position: absolute;
-    width: 15vw;
-    height: 15vw;
-    background-color: #202534;
+    width: 25vw;
+    height: 25vw;
+    background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-    transform: rotate(-25deg);
-    left: 90%;
-    top: 72%;
-    z-index: 0;
+    transform: rotate(-45deg);
+    left: 80%;
+    top: 52%;
+    z-index: -1;
 }
 
 .pentagono4 {
@@ -276,7 +418,7 @@ body {
     padding: 0;
     width: 12.6vw;
     height: 12.5vw;
-    background-color: #202534;
+    background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(-92deg);
     left: -5%;
@@ -287,17 +429,17 @@ body {
 /*LINK*/
 a {
     text-decoration: none;
-    color: #000;
+    color: whitesmoke;
 }
 
 a:hover {
-    color: #6e7ca6;
+    color: #f8cb08;
 }
 
 /*FOOTER*/
 .footer {
     height: 5%;
-    background-color: #202534;
+    background-color: whitesmoke;
 }
 
 
@@ -494,7 +636,8 @@ a:hover {
     }
 }
 
-#projectTitle, #workTitle {
+#projectTitle,
+#workTitle {
     position: absolute;
     font-size: 2.4vw;
     font-family: 'Montserrat', sans-serif;
