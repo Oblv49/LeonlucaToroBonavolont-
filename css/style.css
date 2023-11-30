@@ -575,19 +575,19 @@ a:hover {
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(-25deg);
     left: 84%;
-    top: 52.7%;
+    top: 42%;
     z-index: -1;
 }
 
 .pentagono8 {
     position: absolute;
-    width: 18vw;
-    height: 18vw;
+    width: 19vw;
+    height: 19vw;
     background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(30deg);
     left: -7%;
-    top: 25%;
+    top: 20%;
     z-index: -1;
 }
 
