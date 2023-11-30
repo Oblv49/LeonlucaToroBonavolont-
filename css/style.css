@@ -524,9 +524,9 @@ a:hover {
 }
 
 .pAbout {
-    font-size: 30px;
-    margin-bottom: 7%;
-    margin-top: 5%;
+    font-size: 33px;
+    margin-bottom: 3%;
+    margin-top: 2%;
 }
 
 @media (max-width: 967px) {
@@ -547,11 +547,11 @@ a:hover {
     padding: 0;
     width: 13vw;
     height: 10.5vw;
-    background-color: #202534;
+    background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-    transform: rotate(-92deg);
+    transform: rotate(-90deg);
     left: -5%;
-    top: 91%;
+    top: 93%;
     z-index: 0;
 }
 
@@ -559,7 +559,7 @@ a:hover {
     position: absolute;
     width: 18vw;
     height: 18vw;
-    background-color: #202534;
+    background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(45deg);
     top: -8vw;
@@ -569,25 +569,25 @@ a:hover {
 
 .pentagono7 {
     position: absolute;
-    width: 15vw;
-    height: 15vw;
-    background-color: #202534;
+    width: 24vw;
+    height: 24vw;
+    background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-    transform: rotate(-30deg);
-    left: 90%;
-    top: 65.7%;
+    transform: rotate(-25deg);
+    left: 84%;
+    top: 52.7%;
     z-index: -1;
 }
 
 .pentagono8 {
     position: absolute;
-    width: 16vw;
-    height: 16vw;
-    background-color: #202534;
+    width: 18vw;
+    height: 18vw;
+    background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(30deg);
     left: -7%;
-    top: 30%;
+    top: 25%;
     z-index: -1;
 }
 
@@ -623,7 +623,7 @@ a:hover {
 .pentagonoWork {
     width: 30vw;
     height: 30vw;
-    background-color: #202534;
+    background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 }
 
@@ -673,7 +673,7 @@ a:hover {
     font-weight: bold;
     height: auto;
     width: auto;
-    color: whitesmoke;
+    color: #202534;
     z-index: 1;
 }
 
@@ -697,14 +697,14 @@ a:hover {
 .pentagonoBgP-W {
     width: 95vw;
     height: 45vw;
-    background-color: #202534;
+    background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
 }
 
 .pentagonoBgP-W1 {
     width: 95vw;
     height: 45vw;
-    background-color: #202534;
+    background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
     transform: rotate(180deg);
 }
@@ -745,30 +745,30 @@ a:hover {
 #logoKeybrain {
     position: absolute;
     background-color: whitesmoke;
-    height: 420px;
-    left: 21%;
-    top: 15%;
+    height: 500px;
+    left: 19%;
+    top: 9%;
     z-index: 3;
 }
 
 #tittleKeybrain {
     position: absolute;
-    color: whitesmoke;
+    color: #202534;
     font-family: 'Montserrat', sans-serif;
     font-size: 70px;
     left: 48%;
-    top: 17%;
+    top: 11%;
     z-index: 1;
 }
 
 #pkeybrain {
     position: absolute;
-    color: whitesmoke;
+    color: #202534;
     font-family: 'Montserrat', sans-serif;
     width: 40%;
     font-size: 30px;
     left: 48%;
-    top: 24%;
+    top: 16%;
     z-index: 1;
 }
 
@@ -777,41 +777,72 @@ a:hover {
     background-color: whitesmoke;
     height: 420px;
     left: 60%;
-    top: 56%;
+    top: 38%;
     z-index: 3;
 }
 
 #tittleMenomale {
     position: absolute;
-    color: whitesmoke;
+    color: #202534;
     font-family: 'Montserrat', sans-serif;
     text-align: end;
     font-size: 70px;
     left: 32.5%;
-    top: 57%;
+    top: 39%;
     z-index: 1;
 }
 
 #pMenomale {
     position: absolute;
-    color: whitesmoke;
+    color: #202534;
     font-family: 'Montserrat', sans-serif;
     text-align: end;
     width: 40%;
     font-size: 30px;
     left: 15%;
-    top: 63%;
+    top: 44%;
+    z-index: 1;
+}
+
+#logoZadig {
+    position: absolute;
+    background-color: whitesmoke;
+    height: 420px;
+    left: 21%;
+    top: 78%;
+    z-index: 3;
+}
+
+#tittleZadig {
+    position: absolute;
+    color: #202534;
+    font-family: 'Montserrat', sans-serif;
+    text-align: end;
+    font-size: 70px;
+    left: 48%;
+    top: 80%;
+    z-index: 1;
+}
+
+#pZadig {
+    position: absolute;
+    color: #202534;
+    font-family: 'Montserrat', sans-serif;
+    width: 40%;
+    font-size: 30px;
+    left: 48%;
+    top: 84.5%;
     z-index: 1;
 }
 
 #ScopriDiPiùKeybrain {
     position: absolute;
     font-weight: lighter;
-    color: whitesmoke;
+    color: #202534;
     font-size: 25px;
     font-style: italic;
     text-decoration: underline;
-    top: 43%;
+    top: 27%;
 }
 
 #ScopriDiPiùKeybrain:hover {
@@ -826,14 +857,33 @@ a:hover {
 #ScopriDiPiùMenomale {
     position: absolute;
     font-weight: lighter;
-    color: whitesmoke;
+    color: #202534;
     font-size: 25px;
     font-style: italic;
     text-decoration: underline;
-    top: 90%;
+    top: 60%;
 }
 
 #ScopriDiPiùMenomale:hover {
+    position: absolute;
+    font-weight: lighter;
+    color: goldenrod;
+    font-size: 28px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#ScopriDiPiùZadig {
+    position: absolute;
+    font-weight: lighter;
+    color: #202534;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+    top: 96%;
+}
+
+#ScopriDiPiùZadig:hover {
     position: absolute;
     font-weight: lighter;
     color: goldenrod;
@@ -847,7 +897,8 @@ a:hover {
     width: 50%;
     height: 2px;
     border-radius: 15%;
-    background-color: whitesmoke;
+    background-color: #202534;
+    top: 33.3%;
     margin: 0 auto;
 }
 
@@ -858,7 +909,7 @@ a:hover {
     top: 24.9%;
     left: 3.1%;
     border-radius: 15%;
-    background-color: whitesmoke;
+    background-color: #202534;
 }
 
 .lineTemporal2 {
@@ -868,7 +919,7 @@ a:hover {
     top: 50%;
     left: 49.6%;
     border-radius: 15%;
-    background-color: whitesmoke;
+    background-color: #202534;
 }
 
 .lineTemporal3 {
@@ -878,7 +929,7 @@ a:hover {
     top: 75%;
     left: 3.1%;
     border-radius: 15%;
-    background-color: whitesmoke;
+    background-color: #202534;
 }
 
 #zadigWork {
@@ -890,21 +941,21 @@ a:hover {
 
 #endDateZadig {
     position: absolute;
-    color: whitesmoke;
+    color: #202534;
     top: 21.8%;
     left: 44%;
 }
 
 #startDateZadig {
     position: absolute;
-    color: whitesmoke;
+    color: #202534;
     top: 24.8%;
     left: 5%;
 }
 
 #descriptioZadig {
     position: absolute;
-    color: whitesmoke;
+    color: #202534;
     width: 35%;
     font-size: 20px;
     top: 18%;
@@ -920,21 +971,21 @@ a:hover {
 
 #endDateUni {
     position: absolute;
-    color: whitesmoke;
+    color: #202534;
     top: 50%;
     left: 81%;
 }
 
 #startDateUni {
     position: absolute;
-    color: whitesmoke;
+    color: #202534;
     top: 47%;
     left: 50%;
 }
 
 #descriptioUni {
     position: absolute;
-    color: whitesmoke;
+    color: #202534;
     text-align: end;
     width: 35%;
     font-size: 20px;
@@ -951,23 +1002,32 @@ a:hover {
 
 #endDateUni1 {
     position: absolute;
-    color: whitesmoke;
+    color: #202534;
     top: 72%;
     left: 44.5%;
 }
 
 #startDateUni1 {
     position: absolute;
-    color: whitesmoke;
+    color: #202534;
     top: 75%;
     left: 10%;
 }
 
 #descriptioUni1 {
     position: absolute;
-    color: whitesmoke;
+    color: #202534;
     width: 35%;
     font-size: 20px;
     top: 68%;
     left: 50%;
+}
+
+#pPièAbout {
+    position: absolute;
+    color: whitesmoke;
+    text-align: center;
+    z-index: 3;
+    top: 91%;
+    font-size: 38px;
 }
