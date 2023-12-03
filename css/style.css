@@ -575,6 +575,51 @@ a:hover {
     }
 }
 
+#aboutInfo {
+    margin-left: 3%;
+}
+
+@media (max-width: 967px) {
+    #aboutInfo {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    #aboutInfo {
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 967px) {
+    #divSuDiMe {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    #divSuDiMe {
+        flex-direction: column;
+    }
+}
+
+#imageAboutSmartphone {
+    margin-left: 3%;
+}
+
+@media (max-width: 967px) {
+    #imageAboutSmartphone {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    #imageAboutSmartphone {
+        margin-left: 0;
+    }
+}
+
 #contattiAbout {
     font-size: 35px;
     margin-top: 7%;
@@ -698,6 +743,35 @@ a:hover {
     }
 }
 
+@media (max-width: 967px) {
+    #divFormazioneImgEtext {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 576px) {
+    #divFormazioneImgEtext {
+        flex-direction: column-reverse;
+    }
+}
+
+.imageFormazione {
+    margin-right: 20%;
+}
+
+@media (max-width: 967px) {
+    .imageFormazione {
+        width: 85%;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .imageFormazione {
+        width: 85%;
+        margin-right: 0;
+    }
+}
 
 /*WORK*/
 #chooseContainer {
