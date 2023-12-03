@@ -17,6 +17,19 @@ body {
     position: relative;
 }
 
+@media (max-width: 967px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+
 /*NAVBAR*/
 .navbar {
     background-color: whitesmoke !important;
