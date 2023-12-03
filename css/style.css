@@ -96,7 +96,7 @@ body {
     width: 18vw;
     height: 550px;
     background-color: whitesmoke;
-    border-radius: 40px;
+    border-radius: 50px;
     box-shadow: 3px 5px 20px #0e1018;
     margin-top: 5vw;
     box-sizing: border-box;
@@ -107,7 +107,7 @@ body {
         margin-top: 10%;
         margin-bottom: 8%;
         width: 70vw;
-        border-radius: 12px;
+        border-radius: 25px;
         height: 350px;
     }
 }
@@ -117,7 +117,7 @@ body {
         margin-top: 10%;
         margin-bottom: 8%;
         width: 70vw;
-        border-radius: 12px;
+        border-radius: 25px;
         height: 350px;
     }
 }
