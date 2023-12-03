@@ -234,6 +234,19 @@ body {
     font-size: 30px;
 }
 
+@media (max-width: 967px) {
+    #imageUiUx {
+        margin-bottom: 15%;
+    }
+}
+
+@media (max-width: 576px) {
+    #imageUiUx {
+        margin-bottom: 15%;
+    }
+}
+
+
 /*IMAGE*/
 .image-rotate {
     transform: rotate(180deg) scalex(-1);
