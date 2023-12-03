@@ -78,20 +78,6 @@ body {
     }
 }
 
-@media (max-width: 967px) {
-    #ui-ux {
-       font-size: 12px;
-       flex-direction: column;
-    }
-}
-
-@media (max-width: 576px) {
-    #ui-ux {
-        font-size: 12px;
-        flex-direction: column;
-    }
-}
-
 .card {
     width: 18vw;
     height: 550px;
@@ -226,6 +212,26 @@ body {
     .pCard {
         font-size: 8px;
     }
+}
+
+/*UI UX*/
+
+@media (max-width: 967px) {
+    #ui-ux {
+       font-size: 12px;
+       flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    #ui-ux {
+        font-size: 12px;
+        flex-direction: column;
+    }
+}
+
+.pUiUx {
+    font-size: 30px;
 }
 
 /*IMAGE*/
@@ -439,21 +445,21 @@ body {
     height: 20vw;
     background-color: whitesmoke;
     transform: scaleY(-1);
-    top: 12.75%;
+    top: 13.69%;
     padding: 0;
     z-index: -2;
 }
 
 @media (max-width: 967px) {
     .triangle {
-        top: 9.4%;
+        top: 9%;
         height: 33vw;
     }
 }
 
 @media (max-width: 576px) {
     .triangle {
-        top: 9.4%;
+        top: 9%;
         height: 33vw;
     }
 }
