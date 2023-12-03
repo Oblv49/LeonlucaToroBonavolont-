@@ -311,7 +311,6 @@ body {
     font-size: 40px;
     position: relative;
     overflow: hidden;
-    /* Per assicurarsi che l'immagine di sfondo non esca dal bordo dell'elemento */
 }
 
 #info::before {
@@ -466,14 +465,14 @@ body {
 
 @media (max-width: 967px) {
     .triangle {
-        top: 9%;
+        top: 8.8%;
         height: 33vw;
     }
 }
 
 @media (max-width: 576px) {
     .triangle {
-        top: 9%;
+        top: 8.8%;
         height: 33vw;
     }
 }
