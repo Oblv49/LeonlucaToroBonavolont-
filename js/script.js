@@ -61,9 +61,11 @@ cardProject.addEventListener('click', function(){
         project.classList.add('d-none');
     } else  if (experienceWork.classList.contains('d-none')){
         project.classList.remove('d-none');
+        project.scrollIntoView({ behavior: 'smooth' });
     } else if (!experienceWork.classList.contains('d-none')) {
         experienceWork.classList.add('d-none');
         project.classList.remove('d-none');
+        project.scrollIntoView({ behavior: 'smooth' });
     }
     
 })
@@ -76,9 +78,11 @@ cardExperience.addEventListener('click', function(){
         experienceWork.classList.add('d-none');
     } else  if (project.classList.contains('d-none')) {
         experienceWork.classList.remove('d-none');
+        experienceWork.scrollIntoView({ behavior: 'smooth' });
     } else if (!project.classList.contains('d-none')){
         project.classList.add('d-none');
         experienceWork.classList.remove('d-none');
+        experienceWork.scrollIntoView({ behavior: 'smooth' });
     }
 })
 
