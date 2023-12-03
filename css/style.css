@@ -866,8 +866,20 @@ a:hover {
 }
 
 .titleWork {
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 500;
+}
+
+@media (max-width: 967px) {
+    .titleWork {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 576px) {
+    .titleWork {
+        font-size: 23px;
+    }
 }
 
 .pentagonoBgP-W {
@@ -877,12 +889,36 @@ a:hover {
     clip-path: polygon(50% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
 }
 
+@media (max-width: 967px) {
+    .pentagonoBgP-W {
+        height: 68vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .pentagonoBgP-W {
+        height: 68vw;
+    }
+}
+
 .pentagonoBgP-W1 {
     width: 95vw;
     height: 45vw;
     background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
     transform: rotate(180deg);
+}
+
+@media (max-width: 967px) {
+    .pentagonoBgP-W1 {
+        height: 68vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .pentagonoBgP-Wk1 {
+        height: 68vw;
+    }
 }
 
 #projectTitleSectionP {
@@ -927,6 +963,18 @@ a:hover {
     z-index: 3;
 }
 
+@media (max-width: 967px) {
+    #logoKeybrain {
+        height: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    #logoKeybrain {
+        height: 100px;
+    }
+}
+
 #tittleKeybrain {
     position: absolute;
     color: #202534;
@@ -935,6 +983,20 @@ a:hover {
     left: 48%;
     top: 11%;
     z-index: 1;
+}
+
+@media (max-width: 967px) {
+    #tittleKeybrain {
+        left: 48%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    #tittleKeybrain {
+        left: 48%;
+        font-size: 20px;
+    }
 }
 
 #pkeybrain {
@@ -948,6 +1010,20 @@ a:hover {
     z-index: 1;
 }
 
+@media (max-width: 967px) {
+    #pkeybrain {
+        line-height: 1;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    #pkeybrain {
+        line-height: 1;
+        font-size: 10px;
+    }
+}
+
 #logoMenomale {
     position: absolute;
     background-color: whitesmoke;
@@ -955,6 +1031,18 @@ a:hover {
     left: 60%;
     top: 38%;
     z-index: 3;
+}
+
+@media (max-width: 967px) {
+    #logoMenomale {
+        height: 90px;
+    }
+}
+
+@media (max-width: 576px) {
+    #logoMenomale {
+        height: 90px;
+    }
 }
 
 #tittleMenomale {
@@ -966,6 +1054,20 @@ a:hover {
     left: 32.5%;
     top: 39%;
     z-index: 1;
+}
+
+@media (max-width: 967px) {
+    #tittleMenomale {
+        left: 25%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    #tittleMenomale {
+        left: 25%;
+        font-size: 20px;
+    }
 }
 
 #pMenomale {
@@ -980,6 +1082,20 @@ a:hover {
     z-index: 1;
 }
 
+@media (max-width: 967px) {
+    #pMenomale {
+        line-height: 1;
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 576px) {
+    #pMenomale {
+        line-height: 1;
+        font-size: 9px;
+    }
+}
+
 #logoZadig {
     position: absolute;
     background-color: whitesmoke;
@@ -987,6 +1103,18 @@ a:hover {
     left: 21%;
     top: 78%;
     z-index: 3;
+}
+
+@media (max-width: 967px) {
+    #logoZadig {
+        height: 90px;
+    }
+}
+
+@media (max-width: 576px) {
+    #logoZadig {
+        height: 90px;
+    }
 }
 
 #tittleZadig {
@@ -1000,6 +1128,20 @@ a:hover {
     z-index: 1;
 }
 
+@media (max-width: 967px) {
+    #tittleZadig {
+        top: 79%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    #tittleZadig {
+        top: 79%;
+        font-size: 20px;
+    }
+}
+
 #pZadig {
     position: absolute;
     color: #202534;
@@ -1009,6 +1151,22 @@ a:hover {
     left: 48%;
     top: 84.5%;
     z-index: 1;
+}
+
+@media (max-width: 967px) {
+    #pZadig {
+        top: 83.5%;
+        line-height: 1;
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 576px) {
+    #pZadig {
+        top: 83.5%;
+        line-height: 1;
+        font-size: 9px;
+    }
 }
 
 #ScopriDiPiùKeybrain {
@@ -1021,6 +1179,20 @@ a:hover {
     top: 27%;
 }
 
+@media (max-width: 967px) {
+    #ScopriDiPiùKeybrain {
+        top: 29%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    #ScopriDiPiùKeybrain {
+        top: 29%;
+        font-size: 15px;
+    }
+}
+
 #ScopriDiPiùKeybrain:hover {
     position: absolute;
     font-weight: lighter;
@@ -1030,6 +1202,7 @@ a:hover {
     text-decoration: underline;
 }
 
+
 #ScopriDiPiùMenomale {
     position: absolute;
     font-weight: lighter;
@@ -1038,6 +1211,20 @@ a:hover {
     font-style: italic;
     text-decoration: underline;
     top: 60%;
+}
+
+@media (max-width: 967px) {
+    #ScopriDiPiùMenomale {
+        top: 59%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 576px) {
+    #ScopriDiPiùMenomale {
+        top: 59%;
+        font-size: 13px;
+    }
 }
 
 #ScopriDiPiùMenomale:hover {
@@ -1057,6 +1244,20 @@ a:hover {
     font-style: italic;
     text-decoration: underline;
     top: 96%;
+}
+
+@media (max-width: 967px) {
+    #ScopriDiPiùZadig {
+        top: 95%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    #ScopriDiPiùZadig {
+        top: 95%;
+        font-size: 15px;
+    }
 }
 
 #ScopriDiPiùZadig:hover {
