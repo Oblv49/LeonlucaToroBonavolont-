@@ -104,19 +104,21 @@ body {
 
 @media (max-width: 967px) {
     .card {
-        margin-bottom: 5%;
+        margin-top: 10%;
+        margin-bottom: 8%;
         width: 70vw;
         border-radius: 12px;
-        height: 340px;
+        height: 350px;
     }
 }
 
 @media (max-width: 576px) {
     .card {
-        margin-bottom: 5%;
+        margin-top: 10%;
+        margin-bottom: 8%;
         width: 70vw;
         border-radius: 12px;
-        height: 340px;
+        height: 350px;
     }
 }
 
@@ -135,18 +137,18 @@ body {
 @media (max-width: 967px) {
     .oval {
         margin-top: 5%;
-        top: -40px;
+        top: -45px;
         width: 100px;
-        height: 70px;
+        height: 90px;
     }
 }
 
 @media (max-width: 576px) {
     .oval {
         margin-top: 5%;
-        top: -40px;
+        top: -45px;
         width: 100px;
-        height: 70px;
+        height: 90px;
     }
 }
 
@@ -437,7 +439,7 @@ body {
     height: 20vw;
     background-color: whitesmoke;
     transform: scaleY(-1);
-    top: 12.68%;
+    top: 12.75%;
     padding: 0;
     z-index: -2;
 }
