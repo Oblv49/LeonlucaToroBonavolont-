@@ -337,7 +337,7 @@ body {
 
 #info::before {
     content: "";
-    background-image: url('/images/leo.png');
+    background-image: url('../images/leo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1601,7 +1601,7 @@ a:hover {
     height: 480px;
     width: 460px;
     inset: 0;
-    background-image: url(/images/bgCard.png);
+    background-image: url('../images/bgCard.png');
     background-size: cover;
     border-radius: 15%;
     margin-top: 5%;
