@@ -68,7 +68,7 @@ body {
 }
 
 #leoWhitoutbgHome {
-    filter: drop-shadow(-10px -10px 60px black);
+    filter: drop-shadow(-10px -1px 60px black);
 }
 
 .yellowTitle {
@@ -250,6 +250,10 @@ body {
 
 .pUiUx {
     font-size: 30px;
+}
+
+#imageUiUx {
+    filter: drop-shadow(5px 5px 60px black);
 }
 
 @media (max-width: 967px) {
