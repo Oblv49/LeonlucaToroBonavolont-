@@ -67,6 +67,10 @@ body {
     }
 }
 
+#leoWhitoutbgHome {
+    filter: drop-shadow(-10px -10px 60px black);
+}
+
 .yellowTitle {
     color: #f8cb08;
 }
@@ -543,7 +547,7 @@ body {
     background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(40deg);
-    left: -10%;
+    left: -13%;
     top: 67%;
     z-index: -2;
 }
@@ -558,7 +562,7 @@ body {
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(-92deg);
     left: -5%;
-    top: 94.6%;
+    top: 95.6%;
     z-index: 0;
 }
 
@@ -1531,7 +1535,7 @@ a:hover {
 
 #userCenteredDesign {
     top: 23%;
-    left: 35%; 
+    left: 31%; 
 }
 
 @media (max-width: 967px) {
@@ -1578,10 +1582,11 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 420px;
-    width: 400px;
+    height: 480px;
+    width: 460px;
     inset: 0;
     background-image: url(/images/bgCard.png);
+    background-size: cover;
     border-radius: 15%;
     margin-top: 5%;
     margin-bottom: 5%;
