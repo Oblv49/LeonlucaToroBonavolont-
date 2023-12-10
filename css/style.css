@@ -477,7 +477,7 @@ body {
     height: 20vw;
     background-color: whitesmoke;
     transform: scaleY(-1);
-    top: 10.3%;
+    top: 10.5%;
     padding: 0;
     z-index: -2;
 }
@@ -540,7 +540,7 @@ body {
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(-58.5deg);
     left: 82%;
-    top: 41.1%;
+    top: 41.3%;
     z-index: -1;
 }
 
@@ -1538,7 +1538,7 @@ a:hover {
 }
 
 #userCenteredDesign {
-    top: 23%;
+    top: 18%;
     left: 31%; 
 }
 
