@@ -333,11 +333,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
+    inset: 0;
+    z-index: -3;
     transform: rotate(180deg) scalex(-1);
     opacity: 0.2;
 }
@@ -471,7 +468,7 @@ body {
     height: 20vw;
     background-color: whitesmoke;
     transform: scaleY(-1);
-    top: 13.5%;
+    top: 10.3%;
     padding: 0;
     z-index: -2;
 }
@@ -509,8 +506,8 @@ body {
     background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(-30deg);
-    left: 97%;
-    top: 12%;
+    left: 91%;
+    top: 9%;
     z-index: -1;
 }
 
@@ -521,8 +518,8 @@ body {
     background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(30deg);
-    left: -13%;
-    top: 38%;
+    left: -17%;
+    top: 25%;
     z-index: -2;
 }
 
@@ -532,10 +529,22 @@ body {
     height: 25vw;
     background-color: whitesmoke;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-    transform: rotate(-45deg);
-    left: 80%;
-    top: 52%;
+    transform: rotate(-58.5deg);
+    left: 82%;
+    top: 43.2%;
     z-index: -1;
+}
+
+.pentagonoUserCentered  {
+    position: absolute;
+    width: 27vw;
+    height: 27vw;
+    background-color: whitesmoke;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(40deg);
+    left: -10%;
+    top: 67%;
+    z-index: -2;
 }
 
 .pentagono4 {
@@ -1507,4 +1516,55 @@ a:hover {
         top: 95.5%;
         font-size: 9px;
     }
+}
+
+.triangleWhitPhoto {
+    position: relative;
+    z-index: -2;
+    clip-path: polygon(100% 0%, 0% 0%, 0% 100%);
+}
+
+.imagepattern {
+    width: 100%;
+}
+
+#userCenteredDesign {
+    top: 23%;
+    left: 35%; 
+    gap: 10px;
+}
+
+#userCenteredDesignCard .cardCenterdUser:nth-child(n+1):nth-child(-n+2) {
+   margin-right: 3%;
+}
+
+
+.cardCenterdUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 420px;
+    width: 400px;
+    inset: 0;
+   background-image: url(/images/bgCard.png);
+    border-radius: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.cardCenterdUser h1{
+    font-size: 120%;
+}
+
+.cardCenterdUser p{
+    font-size: 38%;
+}
+
+.logoCardUserCentered {
+    height: 60%;
+    width: 65%;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 5%;
 }
