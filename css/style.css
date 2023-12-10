@@ -477,7 +477,7 @@ body {
     height: 20vw;
     background-color: whitesmoke;
     transform: scaleY(-1);
-    top: 10.5%;
+    top: 9.8%;
     padding: 0;
     z-index: -2;
 }
@@ -540,7 +540,7 @@ body {
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(-58.5deg);
     left: 82%;
-    top: 41.3%;
+    top: 39.5%;
     z-index: -1;
 }
 
@@ -552,7 +552,19 @@ body {
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(40deg);
     left: -13%;
-    top: 67%;
+    top: 64%;
+    z-index: -2;
+}
+
+.pentagonoUserResearch  {
+    position: absolute;
+    width: 27vw;
+    height: 27vw;
+    background-color: whitesmoke;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(40deg);
+    left: 83%;
+    top: 73%;
     z-index: -2;
 }
 
