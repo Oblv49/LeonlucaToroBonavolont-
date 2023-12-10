@@ -99,6 +99,7 @@ body {
     box-shadow: 3px 5px 20px #0e1018;
     margin-top: 5vw;
     box-sizing: border-box;
+    box-shadow: 10px 10px 20px black;
 }
 
 @media (max-width: 967px) {
@@ -482,7 +483,7 @@ body {
 
 @media (max-width: 576px) {
     .triangle {
-        top: 8.8%;
+        top: 7.7%;
         height: 33vw;
     }
 }
@@ -1531,15 +1532,48 @@ a:hover {
 #userCenteredDesign {
     top: 23%;
     left: 35%; 
-    gap: 10px;
 }
 
-#userCenteredDesignCard .cardCenterdUser:nth-child(n+1):nth-child(-n+2) {
+@media (max-width: 967px) {
+    #userCenteredDesign {
+        top: 23%;
+        left: 35%; 
+        gap: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    #userCenteredDesign {
+        top: 23%;
+        left: 35%; 
+        gap: 10px;
+    }
+}
+
+#userCenteredDesignCard .cardCenteredUser:nth-child(n+1):nth-child(-n+2) {
    margin-right: 3%;
 }
 
+@media (max-width: 967px) {
+    #userCenteredDesignCard {
+       flex-direction: column;
+    }
+    #userCenteredDesignCard .cardCenteredUser:nth-child(n+1):nth-child(-n+2) {
+        margin-right: 0;
+     }
+}
 
-.cardCenterdUser {
+@media (max-width: 576px) {
+   #userCenteredDesignCard {
+        flex-direction: column;
+    }
+    #userCenteredDesignCard .cardCenteredUser:nth-child(n+1):nth-child(-n+2) {
+        margin-right: 0;
+     }
+}
+
+
+.cardCenteredUser {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1547,17 +1581,45 @@ a:hover {
     height: 420px;
     width: 400px;
     inset: 0;
-   background-image: url(/images/bgCard.png);
+    background-image: url(/images/bgCard.png);
     border-radius: 15%;
     margin-top: 5%;
     margin-bottom: 5%;
+    box-shadow: 10px 10px 20px #0e1018;
 }
 
-.cardCenterdUser h1{
+@media (max-width: 967px) {
+    .cardCenteredUser {
+        height: 320px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cardCenteredUser {
+    height: 320px;
+    width: 300px;
+    }
+}
+
+
+.cardCenteredUser h1{
     font-size: 120%;
 }
 
-.cardCenterdUser p{
+@media (max-width: 967px) {
+    .cardCenteredUser h1{
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .cardCenteredUser h1{
+        font-size: 100%;
+    }
+}
+
+.cardCenteredUser p{
     font-size: 38%;
 }
 
