@@ -29,6 +29,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--AOS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--CHART.JS-->
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+
+    <title>LeonLuca Toro Bonavolontà | Portfolio</title>
 </head>
 
 <body>
@@ -75,13 +79,13 @@
                             sagge e innovative.”
                         </p>
                         <p class="fw-light fst-italic mt-0 text-white">
-                            Leonluca toro Bonavolontà
+                            Leonluca Toro Bonavolontà
                         </p>
                     </div>
                 </div>
 
                 <div class="col-12 text-center position-absolute bottom-0 start-50 translate-middle-x">
-                    <a href="#info">
+                    <a href="#info" class="text-secondary d-flex flex-column"><span class="fs-5 d-none d-sm-block">Mi occupo di</span>
                         <span class="material-symbols-outlined fs-1">
                             keyboard_arrow_down
                         </span>
@@ -96,7 +100,8 @@
                 <div class="col-12 col-md-10 mt-3 mb-5">
                     <div class="align-items-center justify-content-center">
                         <div class="text-center mt-4" data-aos="fade-up">
-                            <h1 class="display-3 p-0 mb-2 fw-bold yellowTitle">Tecnologia Positiva & Empowerment</h1>
+                            <h1 class="display-3 p-0 mb-2  mt-5 fw-bold yellowTitle">Tecnologia Positiva & Empowerment
+                            </h1>
                             <div class="line"></div>
                         </div>
                         <div class="d-flex align-items-center justify-content-center position-relative">
@@ -202,6 +207,7 @@
                         </div>
                     </div>
                     <!--CARD CENTERED USER DESIGN-->
+                    <h1 class="display-6 p-0 mb-2 fw-bold yellowTitle text-center mt-5 mb-0">Progetti</h1>
                     <div id="userCenteredDesignCard" class="d-flex justify-content-center align-items-center m-0 p-0">
                         <div class="cardCenteredUser">
                             <img class="logoCardUserCentered" src="images/keybrainLogo.png" alt="logo key KeyBrain">
@@ -246,7 +252,7 @@
                 </div>
             </div>
             <img class="w-100" src="images/letterBgTrasparent50.png" alt="letter bg half">
-            <div class=" col-9 m-auto align-items-center justify-content-center">
+            <div id="userResearch" class=" col-9 m-auto align-items-center justify-content-center">
                 <div class="mt-4" data-aos="fade-up">
                     <h1 class="display-3 p-0 mb-2 fw-bold yellowTitle">User Research</h1>
                 </div>
@@ -261,20 +267,39 @@
                 <div class="pentagonoUserResearch d-none d-sm-block"></div>
             </div>
         </div>
+        <div id="chartContainer" class="d-flex justify-content-evenly mt-5 align-items-center">
+            <div class="h-100">
+                <canvas id="canvas1"></canvas>
+                <p class="text-center text-white mt-3">La User Research aumenta le<br> potenzialità di successo di un
+                    progetto.</p>
+            </div>
+            <div class="h-100">
+                <canvas id="canvas2"></canvas>
+                <p class="text-center text-white mt-3">La User Research aumenta significamente<br> la
+                    Soddisfazionedell’utente finale.</p>
+            </div>
+            <div>
+                <canvas id="canvas3"></canvas>
+                <canvas id="canvas4"></canvas>
+                <p class="text-center text-white mt-3">Con una User Research costante,<br> grazie ai feedback raccolti
+                    l’esperienza utente<br> migliora nel tempo</p>
+            </div>
+        </div>
         <!--CONTATTI-->
+        <div class="triangle1"></div>
         <div class="pentagono3 d-none d-sm-block"></div>
         <div id="contatti" class="homepage container-fluid mt-5">
             <div class="row position-relative">
-                <div class="text-center" data-aos="fade-up">
-                    <p class="display-5 p-0 fw-medium yellowTitle">Contatti</p>
-                    <div class="line2"></div>
-                </div>
                 <div class="col-10 m-auto d-md-flex justify-content-center align-items-center mt-5 mb-5">
                     <div class="col-12 col-md-4 d-flex justify-content-center align-items-center" data-aos="zoom-in">
-                        <img class="lWhitBg rounded rounded-circle mb-5" src="images/leoWhitBg.jpeg"
+                        <img class="lWhitBg rounded rounded-circle mt-5" src="images/leoWhitBg.jpeg"
                             alt="leonluca toro bonavoltà">
                     </div>
-                    <div class="flex-column text-white">
+                    <div class="flex-column text-white mt-5">
+                        <div class="text-center" data-aos="fade-up">
+                            <p class="display-5 p-0 fw-medium yellowTitle">Contatti</p>
+                            <div class="line2"></div>
+                        </div>
                         <div class="col-12 col-md-8 d-flex align-items-center" data-aos="fade-up">
                             <div>
                                 <p class="display-2">
@@ -683,9 +708,13 @@
             <div class="pentagono5 m-0 p-0 d-none d-sm-block"></div>
         </div>
     </div>
+
+
+
     <!--AOS SCRIPT-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--JS-->
+    <script src="js/chart.js"></script>
     <script src="js/script.js"></script>
 </body>
 
